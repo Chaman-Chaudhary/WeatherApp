@@ -6,7 +6,7 @@ import "./Search-Box.css";
 
 export default function SearchBox({ updateWeatherInfo }) {
   const URL = "https://api.weatherapi.com/v1/current.json?key=";
-  const key = "YOUR_API_KEY";
+  const key = "452697dce26c9c63b9645c6b4bde3d97";
   const [city, setCity] = useState("");
   const [error, setError] = useState(false);
 
